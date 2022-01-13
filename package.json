@@ -1,0 +1,19 @@
+{
+  "name": "sticker-information",
+  "version": "1.0.0",
+  "description": "A plugin for Discord ModMail by Dragory that adds a prefix to thread names",
+  "main": "./stickerInformation.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StariusTechnologies/MMStickerInformation.git"
+  },
+  "keywords": [
+    "modmail",
+    "plugin"
+  ],
+  "author": "Lily Wonhalf <lilywonhalf@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/StariusTechnologies/MMStickerInformation/issues"
+  }
+}
