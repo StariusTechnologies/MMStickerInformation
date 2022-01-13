@@ -6,6 +6,8 @@ module.exports = async function ({ config, hooks }) {
     const afterNewMessageReceived = ({ opts, message }) => {
         const { thread } = opts;
         const stickers = message.stickerItems;
+        console.log(message.stickerItems);
+        console.log(message.stickers);
 
         if (stickers && stickers.length > 0) {
             console.log(stickers);
